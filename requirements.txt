@@ -1,0 +1,6 @@
+# パスワードのハッシュを処理するため
+bcrypt==4.0.1
+passlib[bcrypt]
+
+# JWTトークンの生成と検証を行うため
+pyjwt
